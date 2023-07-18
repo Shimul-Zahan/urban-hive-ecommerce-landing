@@ -1,6 +1,8 @@
 /* small devices */
 @media screen and (max-width: 576px) {
-    header{
+    header,
+    main
+    {
         width: 100%;
     }
     /* navbar */
@@ -27,6 +29,14 @@
         border-radius: 10px;
     }
     .login-btn{
-        width: 375px;
+        width: 372px;
+        border-radius: 0;
+    }
+    /* products */
+    .products-container{
+        max-width: 100%;
+    }
+    .products-card-container{
+        grid-template-columns: 1fr;
     }
 }

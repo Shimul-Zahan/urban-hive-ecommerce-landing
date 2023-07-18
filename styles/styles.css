@@ -12,7 +12,7 @@
 
 /* header part start */
 header{
-    width: 1920px;
+    width: 1899px;
     margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ nav ul li a{
 /* banner part */
 .banner-container{
     max-width: 88%;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
     background: rgba(112, 128, 144, 0.178);
     border-radius: 10px;
 
@@ -84,6 +84,7 @@ nav ul li a{
     align-items: center;
 }
 .banner-image img{
+    width: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -107,4 +108,52 @@ nav ul li a{
     font-size: 1.1rem;
     color: black;
     margin: 1.2rem 0.8rem;
+}
+
+/* main part */
+main{
+    width: 1899px;
+    margin: 0 auto;
+}
+/* all product */
+.products-container{
+    max-width: 88%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.products-container-title{
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+.products-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.product-card{
+    max-width: 400px;
+    height: 300px;
+    padding: 15px;
+    background-color: rgba(112, 128, 144, 0.253);
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+}
+.products-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.products-head h1{
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;;
+}
+.products-head span{
+    margin: 5px 0;
+}
+.product-desc{
+    font-size: 1.2rem;
+}
+.product-price{
+    font-size: 1.5rem;
+    margin: 10px 0;
 }
